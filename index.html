@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="authors" content="Winnie">
+        <meta name="description" content="Cafe For All">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <title>The Cozy Cafe</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+ <nav class="navbar">
+            <div class="logo">
+                <img src="images/cozy-cafe-logo.png"alt="">Cozy Bean</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About-Us</a></li>
+                <li><a href="#contact">Contact-Us</a></li>
+            </ul>
+        </nav>
+        
+        <section id="home" class="content-section">
+            <h2>Freshly Roasted</h2>
+            <h2>COFFEE</h2>
+            <p>Your daily dose of comfort en confidence</p>
+            
+            
+            <a href="#services" class="shop-btn">SHOP NOW</a>
+        </section>
+
+        <section id="services" class="content-section">
+            <div class="section-title">
+                <h2>Our Menu</h2>
+                <p>Handcrafted with love and served fresh daily</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="images/black-coffee.jpg" alt="Black coffee">
+                    <div class="card-content">
+                        <h3>Black Coffee</h3>
+                        <p>Black Coffee made with love</p>
+                        <span class="price">UGX 8,000</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <img src="images/cappucino.jpeg" alt="Cappuccino">
+                    <div class="card-content">
+                        <h3>Cuppuccino</h3>
+                        <p>Cuppuccino with smooth espresso</p>
+                        <span class="price">UGX 12,000</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <img src="images/chocalate-coffee.jpg" alt="Chocatte coffee">
+                    <div class="card-content">
+                        <h3>Chocatte Coffee</h3>
+                        <p>Creamy chocatte with cocoa shavings</p>
+                        <span class="price">UGX 15,000</span>
+                    </div>
+            </div>
+            </div>
+            <div class="services-bottom">
+                <p>Order With Cash</p>
+            </div>
+          </section>
+          <section id="about" class="content-section">
+            <div class="section-title">
+            <h3>About Us</h3>
+            <p>The heart between every cup</p>
+            </div>
+            <div class="about-container">
+                <!--left side:lmage -->
+                <div class="about-image">
+                    <img src="images/cafe-interior.jpg" alt="Cozy Bean Cafe Interior">
+                </div>
+                <!--right side:text -->
+            <div class="about-text">
+                <h3>Welcome to Cozy Bean</h3>
+                <p>Born in the heart of Kampala in 2024, Cozy Bean started w ith a simple belief:
+                    coffee should be more than caffeine.It should be a moment of comfort,
+                    a pause in your busy day, a reason to connect.
+                </p>
+                <h3>Our Promise</h3>
+                <p>
+                    We source premium Arabica beans directly from Ugandan farmers in the
+                    Rwenzori and Elogon regions.Each batch is small-roasted to bring out
+                    rich chocolate and caramel notes you won't find anywher else.
+                </p>
+                <h3>More Than Coffee</h3>
+                <p>
+                    Whether your meeting friends,grabing a quick meal or needing a quite
+                    corner to work,we built cozy as your second home.
+                    Free WIFI,warm smilies and consistently great coffee - that is our gratitude. 
+                </p>
+            </div>
+                <a href="#contact" class="about-btn">Visit Us Today</a>
+            </div>
+          </section>
+          <section id="contact" class="content-section">
+            <div class="visit-us">
+            <h3>Find Us</h3>
+            <p>Banda,Kyambogo<br>Kampala,Uganda</p>
+            </div>
+            <div class="contact-row">
+                <div class="info-box">
+            <h3>Opening Hours</h3>
+            <p>Daily: 7AM - 9PM <br>
+            Happy Hour: 2PM - 4PM Weekends</p>
+                </div>
+                <div class="info-box">
+            <h3>Get in Touch</h3>
+            <p>Phone: +256 708885349<br>
+            WhatsApp: +7946342746<br>
+         Email: hello@cozybean.ug</p>
+                </div>
+            </div>
+            <!--Form and Video Container-->
+            <div class="form-video-container">
+                <!--left side: Form-->
+                <div class="contact-form">
+                    <h3>Reservation form</h3>
+                    <form method="POST"action="">
+                        <fieldset>
+                            <label>Name: </label>
+                            <input type="text"name="your name" value="" required="required"><br><br>
+                            <label>Email: </label>
+                             <input type="email"name="your emaail" value="" required="required"><br><br>
+                             <label>Phone No: </label>
+                             <input type="tel" placeholder="Phone"><br>
+                             <label>Town: </label>
+                            <select name="Town">
+                                <option>Kampala</option>
+                                <option>Wakiso</option>
+                                 <option>Mukono</option>
+                                  <option>Masaka</option>
+                            </select><br>
+                            <label for="description">Request: </label>
+                            <textarea cols="20" rows="6" maxlength="400" id="description">Enter your Booking Request</textarea><br>
+                                <button type="submit">Send Message</button>
+                        </fieldset>
+                    </form>
+                </div>
+                
+                <!--right side: Video-->
+                <div class="contact-video">
+                    <video  autoplay loop muted>
+                        <source src="video/coffee.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+          </section>
+          <footer class="site-footer">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Cozy Bean</h3>
+                    <p>your daily dose of warmth in Kampala</p>
+                    <p>Serving fresh coffee across and near Kampala</p>
+            </div>
+            <div class="footer-links">
+            <h4>Quick links</h4>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About-Us</a>
+            <a href="#contact">Contact-Us</a>
+            </div>
+            <div class="footer-contact">
+                <h3>Find Us</h3>
+                    <p>Banda,Kyambogo<br>Kampala,Uganda</p>
+                     WhatsApp: +7946342746<br>
+                        Email: hello@cozybean.ug</p>
+            </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Cozy Bean. All Rights Reserved.</p>
+                <p>Made with kampala</p>
+            </div>
+          </footer>
+          <script>
+    //Form Submission Feedback
+    const reservationForm = document.querySelector('.contact-form form');
+    reservationForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // Get the name to personalize the message
+        const name = this.querySelector('input[name="your name"]').value;
+        
+        // Simple success message
+        alert(`Thank you, ${name}! Your reservation request for Cozy Bean has been sent. We will contact you shortly.`);
+        
+        // Reset the form
+        this.reset();
+    });
+
+    // Select all headings and paragraphs
+    const texts = document.querySelectorAll(
+        "h1, h2, h3, h4, p, a"
+    );
+
+    // Add gradient effect when mouse moves over text
+    texts.forEach(text => {
+
+        text.addEventListener("mouseover", () => {
+            text.classList.add("gradient-text");
+        });
+        
+        //Remove gradient effect when mouse moves out
+        text.addEventListener("mouseout", () => {
+            text.classList.remove("gradient-text");
+        });
+
+    });
+
+    // Simple Fade-In Animation for About Us Text
+    const aboutText = document.querySelector('.about-text');
+    const aboutElements = document.querySelectorAll('.about-text h3, .about-text p');
+
+    if (aboutText) {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    // Add fade-in animation to all elements
+                    aboutElements.forEach(el => {
+                        el.classList.add('fade-in');
+                    });
+                    // Stop observing after animation is triggered
+                    observer.unobserve(aboutText);
+                }
+            });
+        }, { threshold: 0.3 });
+
+        observer.observe(aboutText);
+    }
+
+</script>
+
+    </body>
+</html>
+
